@@ -55,13 +55,13 @@ int	main(void)
   str = "123123";
   res = ft_atoi(str);
   a_toi = atoi(str);
-  printf("Atoi value = %d, My value = %d\n", a_toi, res);   
+  printf("Atoi value = %d, My value = %d\n", a_toi, res);
 
     // test3
   str = "-123123";
   res = ft_atoi(str);
   a_toi = atoi(str);
-  printf("Atoi value = %d, My value = %d\n", a_toi, res);  
+  printf("Atoi value = %d, My value = %d\n", a_toi, res);
 
     // test4
   str = "12Abcd23";

@@ -31,7 +31,6 @@ int		main(void)
 	// ft_strcpy
    ft_strcpy(dest, src);
    printf("Destination is : %s\n", dest);
-   
+
    return (0);
 }
-
