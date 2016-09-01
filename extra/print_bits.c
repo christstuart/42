@@ -1,3 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   print_bits.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: cstuart <marvin@42.fr>                     +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2016/08/30 02:07:02 by cstuart           #+#    #+#             */
+/*   Updated: 2016/08/30 02:07:04 by cstuart          ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+#include <unistd.h>
 
 void	print_bits(unsigned char octet)
 {
@@ -19,4 +32,13 @@ void	print_bits(unsigned char octet)
 		}
 		divv = divv / 2;
 	}
+}
+
+int		main(void)
+{
+	unsigned char s;
+
+	s = '3';
+	print_bits(s);
+	return (0);
 }
